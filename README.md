@@ -47,9 +47,7 @@ Protected admin dashboard
 - [Screenshots](#screenshots)
 - [Troubleshooting](#troubleshooting)
 - [Known limitations and future improvements](#known-limitations-and-future-improvements)
-- [Assignment submission checklist](#assignment-submission-checklist)
-- [Contribution workflow](#contribution-workflow)
-
+  
 ## Project status
 
 ### Implemented
@@ -792,7 +790,6 @@ Start the backend first and check `frontend/.env.local`. Restart the Next.js dev
 - Add a dedicated authenticated endpoint and admin screen for persisted chat conversations.
 - Add a production deployment configuration and CI workflow.
 - Add a health/readiness distinction for database availability.
-- Consider secure, httpOnly cookie-based session handling instead of `localStorage` for production deployments.
 - Add structured logging and monitoring for production operations.
 - Add pagination controls to the admin UI; the backend already returns pagination metadata.
 - Add streaming Gemini responses if they can be introduced without compromising timeout and fallback behavior.
@@ -800,25 +797,3 @@ Start the backend first and check `frontend/.env.local`. Restart the Next.js dev
 
 These are future improvements, not claims about currently implemented behavior.
 
-## Assignment submission checklist
-
-Use this checklist for the IPAGE Group assignment submission:
-
-- [ ] Complete frontend and backend source code
-- [ ] MongoDB Atlas setup and schema instructions
-- [ ] API endpoint documentation and sample requests
-- [ ] Screenshots of the homepage, chatbot, forms, and admin workspace
-- [ ] GitHub repository link
-- [ ] 5–10 minute video walkthrough
-- [ ] Updated resume in PDF format
-- [ ] Google Drive submission folders organized according to the assignment instructions
-
-## Contribution workflow
-
-1. Create a feature branch.
-2. Keep frontend and backend changes scoped to the relevant package.
-3. Do not commit environment files or user data.
-4. Run the backend build and tests after backend changes.
-5. Run the frontend type-check/build after frontend changes.
-6. Update this README when routes, scripts, environment variables, or public behavior change.
-7. Open a pull request with a concise summary and verification steps.
