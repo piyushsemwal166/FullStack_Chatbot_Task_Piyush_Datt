@@ -479,6 +479,8 @@ Chat conversations are persisted, but there is currently no administrator endpoi
 
 The complete endpoint reference, request/response examples, authentication requirements, validation rules, and curl commands are available in [`API_DOCUMENTATION.md`](./API_DOCUMENTATION.md).
 
+Database setup, collections, fields, indexes, and admin seeding are documented in [`DATABASE_DOCUMENTATION.md`](./DATABASE_DOCUMENTATION.md).
+
 The backend is mounted at `http://localhost:5000/api` by default. Successful responses use a `data` property. Validation errors return `error` and, where applicable, `details`.
 
 ### Endpoint summary
@@ -798,4 +800,3 @@ Start the backend first and check `frontend/.env.local`. Restart the Next.js dev
 - Add image assets and a documented screenshot gallery.
 
 These are future improvements, not claims about currently implemented behavior.
-
