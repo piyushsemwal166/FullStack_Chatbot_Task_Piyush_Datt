@@ -738,7 +738,27 @@ The following public interface screenshots are included in the repository:
 
 ![DroneTV contact form](frontend/public/screenshots/contact.png)
 
-Admin and enquiry-detail screenshots are intentionally not linked here because the current versions contain account or enquiry data. Replace those images with fully redacted versions before publishing them.
+### Admin login
+
+![DroneTV admin login](frontend/public/screenshots/admin-login-page.png)
+
+### Admin overview
+
+![DroneTV admin dashboard](frontend/public/screenshots/admin-dashboard.png)
+
+![DroneTV pipeline mix](frontend/public/screenshots/pipline-mix.png)
+
+### Enquiry management
+
+![DroneTV enquiry management](frontend/public/screenshots/enquiry-managment.png)
+
+![DroneTV enquiry filters](frontend/public/screenshots/enquiry-filter.png)
+
+![DroneTV enquiry status update](frontend/public/screenshots/enquiry-status.png)
+
+### Enquiry details
+
+![DroneTV enquiry detail](frontend/public/screenshots/enquiry-detail.png)
 
 ## Troubleshooting
 
