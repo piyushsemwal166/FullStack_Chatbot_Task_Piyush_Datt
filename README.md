@@ -73,7 +73,7 @@ Protected admin dashboard
 ### Not implemented or not verified in this repository
 
 - No production deployment URL is configured.
-- No screenshot files are currently present under `docs/screenshots/`.
+- Selected public UI screenshots are included under `frontend/public/screenshots/`.
 - No automated frontend end-to-end test suite is configured.
 - No frontend `lint` script is defined.
 - No admin UI for browsing persisted chatbot conversations is exposed.
@@ -714,22 +714,31 @@ The current Vitest suite covers valid/invalid enquiry schemas and the rule-based
 
 ## Screenshots
 
-No screenshot assets are currently present in the repository. Add optimized images at these paths if you want them displayed on GitHub:
+The following public interface screenshots are included in the repository:
 
-- [ ] `docs/screenshots/homepage.png`
-- [ ] `docs/screenshots/chatbot.png`
-- [ ] `docs/screenshots/enquiry-form.png`
-- [ ] `docs/screenshots/admin-login.png`
-- [ ] `docs/screenshots/admin-overview.png`
-- [ ] `docs/screenshots/enquiry-management.png`
+### Homepage
 
-After adding the files, replace this checklist with relative Markdown images such as:
+![DroneTV homepage](frontend/public/screenshots/homepage.png)
 
-```md
-![DroneTV homepage](docs/screenshots/homepage.png)
-```
+### Courses
 
-Do not commit screenshots containing real credentials, tokens, personal enquiries, or API keys.
+![DroneTV courses](frontend/public/screenshots/course.png)
+
+### Services and studio preview
+
+![DroneTV services](frontend/public/screenshots/service.png)
+
+![DroneTV studio preview](frontend/public/screenshots/studio-preview.png)
+
+### Chatbot
+
+![DroneTV chatbot](frontend/public/screenshots/chatbot.png)
+
+### Contact form
+
+![DroneTV contact form](frontend/public/screenshots/contact.png)
+
+Admin and enquiry-detail screenshots are intentionally not linked here because the current versions contain account or enquiry data. Replace those images with fully redacted versions before publishing them.
 
 ## Troubleshooting
 
@@ -793,4 +802,3 @@ Use this checklist for the IPAGE Group assignment submission:
 5. Run the frontend type-check/build after frontend changes.
 6. Update this README when routes, scripts, environment variables, or public behavior change.
 7. Open a pull request with a concise summary and verification steps.
-
